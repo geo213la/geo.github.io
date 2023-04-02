@@ -1,0 +1,49 @@
+/*objectName {
+    key: value
+}  */
+
+h1{
+    color:rgb(223, 238, 223); font-size:xx-large ; border-style: groove;border-width: 20px;border-color: darkslategrey;
+    
+}
+
+body{
+    /* background-color: rgb(175, 188, 184);
+    text-align: center; */
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4e/Rosia_Montana_Roman_Gold_Mines_2011_-_Galleries-5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.gameboard{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes bounceIn{
+    0%{
+        transform: scaleX(0.5);
+        opacity: 0;
+    }
+    60%{
+        transform: scaleX(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scaleX(0.8);
+        opacity: 0;
+    }
+}
+h1{
+    animation:bounceIn 7s ;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+button{
+    animation:bounceIn 4s ;
+    animation-direction: alternate;
+    animation-timing-function: step-end;
+}

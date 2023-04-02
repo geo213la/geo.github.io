@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treasure-Hunt</title>
+  <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+  <h1>Cave Mining Game</h1>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN_9qoLDvGYGDCTkc7SC1MRKo8rTY7a_IlQKRxu0Ohrg&usqp=CAU&ec=48665698" alt="Cave Mining" />
+  <hr />
+  <div class="gameboard">
+  <table class="center">
+    <tr>
+      <table border="9">
+      <td id="0" onclick="treasure(0)">🪨</td>
+      <td id="1" onclick="treasure(1)">🪨</td>
+      <td id="2"onclick="treasure(2)">🪨</td>
+    <tr>
+      <td id="3"onclick="treasure(3)">🪨</td>
+      <td id="4"onclick="treasure(4)">🪨</td>
+      <td id="5"onclick="treasure(5)">🪨</td>
+      <tr>
+        <td id="6"onclick="treasure(6)">🪨</td>
+        <td id="7"onclick="treasure(7)">🪨</td>
+        <td id="8"onclick="treasure(8)">🪨</td>
+  </table>
+</div>
+ <p style="font-style: italic;">Want to play again?</p>
+ <button type="button" onclick="location.reload()">Restart Game</button>
+  <footer>&copy; Geo, Serg & Forrest Coding Inc.</footer>
+  <script type="text/javascript" src="treasurehunt.js"></script>
+
+</body>
+</html>
